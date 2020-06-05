@@ -1,0 +1,28 @@
+fitst time to use git:
+1.download git
+2.create new project with new folder
+3.git init
+4.git config --global user.name 'minemcdull'
+5.git config --global user.email 'minemcdull@163.com'
+6.git config -l
+7.git remote add origin https://github.com/minemcdull/hello-world
+8.git status
+9.git add *
+10.git commit -m 'first'
+12.git pull origin master --allow-unrelated-historie
+11.git push -u origin master
+
+ssh/http connection to retrieve data
+ssh generation:
+1.ssh -keygen -t rsa -C "minemcdull@163.com"
+--> git bach
+bash是linux风格的命令行，路径也是linux式的，可以使用windows和linux的命令；cmd是windows风格的命令行，可以使用windows命令；
+2.cat c:/.../id_rsa.pub
+3.add ssh in github.com setting
+
+retrive repository:
+与git pull相比git fetch相当于是从远程获取最新版本到本地，但不会自动merge。如果需要有选择的合并git fetch是更好的选择。效果相同时git pull将更为快捷。
+1.git clone https://github.com/justinmeister/PongWithLibgdx.git
+
+
+
